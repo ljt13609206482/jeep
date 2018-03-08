@@ -1,0 +1,63 @@
+/*网页头部样式*/
+/*顶部登录模块样式*/
+.header { width:1366px; z-index:12000;background:url("../img/index/nav/nav01.png") repeat-x;margin-bottom: -2px;
+    font-family: "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He", sans-serif; }
+.headBox{position: relative; height:67px;width: 1258px;margin: 0 auto;}
+div.hdLogo {float: left;margin-left: 35px; }
+.hdNav { width:1000px; height:65px; position:absolute; top:0; right:12px; color:#fff;
+    font-size:14px;}
+.hdCarMasker { width: 100%;height: 638px; position: fixed;left: 0; top: 65px; display:none;z-index: 5; background: #000; opacity: 0.8; filter: alpha(opacity=80);}
+.hdNav .hdNavTab { width:100px; height:65px; float:left; }
+.hdNav .hdNavTab .hdNavTxt { height:44px; padding-top:21px; display:block; text-align:center; color:#fff; }
+.hdNav .on { background:#ffb301 !important; color:#000 !important; }
+.hdNav .on .hdNavTxt { color:#000 !important; }
+.hdNav .hdNavIcon { margin-right:12px; position:relative; top:0; display:inline; }
+.hdNav .deale { width:138px; height:65px; float:left; text-align:center; }
+.hdNav .deale a { height:45px; padding-top:20px; display:block; background:none; color: #dd9b01; }
+.hdNav .deale span { position:relative; }
+.hdNav .deale img{margin-right: 12px;}
+.hdNav .appointment { width:117px; height:65px; float:left; text-align:center; }
+.hdNav .appointment a { height:45px; padding-top:20px; display:block; background:none; color: #dd9b01; }
+.hdNav .appointment span { position:relative; }
+.hdNav .on{color: #000;background: #dd9b01}
+
+#hdNavJeepLife { padding-top:21px; height:41px; }
+/*导航列表样式*/
+.hdSubNav { width:211px;display:none;position:relative;z-index: 5; }
+.hdSubNav .bg { width:211px; position:absolute; top:0; left:0; background:#000; opacity:0.8; filter:alpha(opacity=80); }
+.hdSubNav ul { width:211px; position:absolute; top:30px; }
+.hdSubNav ul li { margin-bottom:6px;  }
+.hdSubNav ul li a { width:186px; height:27px !important; display:block; color:#dfdfdf; padding:6px 0 0 25px !important;
+    text-align:left !important;}
+.hdSubNav ul li a:hover { background:#ffb301; color:#000; text-decoration:none; }
+
+
+.hdSubNavCar { width:1023px; height:542px; position:relative; display:none;  margin-left:-222px; z-index: 5; }
+.hdSubNavCar ul { width:1023px; height:542px;}
+.hdSubNavCar li { width:341px; float:left; }
+.hdSubNavCar .img { width:341px; height:149px; }
+.hdSubNavCar .txt { width:341px; position:relative; }
+.hdSubNavCar .booking { width:118px; height:30px; top:71%; left:28px; position:absolute; display:block;
+    background:#f00; opacity:0; filter:alpha(opacity=0); }
+.hdSubNavCar .more { width:118px; height:30px; top:71%; left:200px; position:absolute; display:block;
+    background:#f00; opacity:0; filter:alpha(opacity=0); }
+
+.hdSubNav2 .bg { height:163px; }
+.hdSubNav3 .bg { height:163px; }
+.hdSubNav5 .bg { height:420px; }
+.hdSubNav5 .r  { font-size:10px; position:relative; top:-4px; }
+.hdSubNav8 .bg { height:124px; }
+.hdSubNav8 { left:-10px; }
+
+
+.hdSubNav4 { width:211px; height:196px; position:relative; left:0;display:none;z-index: 5; }
+.hdSubNav4 .bg { width:211px; height:196px; position:absolute; top:0; left:0; background:#000; opacity:0.8; filter:alpha(opacity=80); }
+.hdSubNav4 dl { width:211px; height:196px; position:absolute; top:0;float:left; }
+.hdSubNav4 dl dt { margin:28px 0 18px 26px; color:#fff; font-weight:bold; display:none; }
+.hdSubNav4 dl dd { margin-bottom:4px; color:#dfdfdf; }
+.hdSubNav4 dl dd a { width:185px; height:26px !important; display:block; padding:7px 0 0 26px !important; color: #dfdfdf; text-align:left !important; }
+.hdSubNav4 dl dd a:hover { background:#ffb301; color:#000; position:relative; }
+.hdSubNav4 .dl1 { left:0; top:22px;  }
+.hdSubNav4 .dl2 { left:174px; border-right:0; display:none; }
+
+

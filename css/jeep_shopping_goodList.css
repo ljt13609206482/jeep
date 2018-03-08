@@ -1,0 +1,21 @@
+#shopping_main{width: 1366px;height: 100%;background: #DADADA;}
+.sListBox { width: 1000px; margin: 0 auto;}
+.sListBox .sBanner {width: 990px;  margin: 0 auto; height: 228px; text-align: center; overflow: hidden; }
+.sListBox .sList { width: 1000px; margin: 0 auto;overflow: hidden;}
+.sListBox .sList li {float: left;width: 240px;height: 316px;background: #fff;overflow: hidden;margin: 10px 5px 0px 5px;}
+.sListBox .sList li .sListImg {width: 240px;height: 190px;text-align: center;line-height: 195px;}
+.sListBox .sList li .sListImg img {max-width: 100%;max-height: 100%;vertical-align: middle;height:150px;}
+.sListBox .sList li .caption {font-size: 12px;margin-top: 5px;color: #000000;}
+.sListBox .sList li a h3 {color: #000000;font-size: 14px;padding-top: 10px;}
+.sListBox .sList li a h3:hover {color: #ffb300;}
+.sListBox .sList li .sPrice {color: #9e0000;font-size: 12px;padding-top: 5px;}
+.sListBox .sList li .price {font-size: 10px;padding-top: 3px;color: #909090;}
+.priceThrow {text-decoration: line-through;}
+.sListBox .slistTitle {margin-top: 15px;margin-left: 15px;margin-right: 13px;border-top: 2px solid #f0f0f0;}
+/*分页条样式*/
+.sPage {width: 1000px;text-align: center;height: 45px;margin-top: 20px }
+.sPage a {display: inline-block;padding: 5px 10px;background: #fff;color: #000;margin: 0 3px;font-size: 12px;}
+.sPage a:hover {color: #cf000e;}
+.sPage a.cur {color: #cf000e;}
+.sPage a.pageUnable {color: #999;}
+.sPage a.pageUnhover{color: #000;}

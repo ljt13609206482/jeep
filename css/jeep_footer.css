@@ -1,0 +1,26 @@
+/*页面底部样式*/
+#footer{background: #000000;}
+.footer { width:1366px; height:638px; background:#313131;
+    font-family: "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He", sans-serif; }
+
+.ftMap { width:1032px; height:409px; margin:0 auto; padding-top:60px; display: flex; justify-content: space-between}
+.ftMap dl { width:135px; float:left; }
+.ftMap dl dt { font-size:14px; color:#fff; margin-bottom:16px;  }
+.ftMap dl dd { font-size:12px; margin-bottom:16px; }
+.ftMap dl dd a { color:#a7a7a7; }
+.ftMap dl dd a:hover { text-decoration:none; color:#fdc33e; }
+
+.ftMap .ftDl { width:124px; float:left; }
+
+.ftMap .ftTel400 { font-size:22px; font-weight:bold; color:#b9b9b9;  }
+
+.ftMap .content dt { margin-bottom:6px; }
+.ftMap .content img { display: inline; margin-right: 15px; position:relative; top:10px; }
+
+.ftCopyRight { width:100%; height:229px; background:#191919;     }
+.ftCopyRightBox { width:1032px; border-top:1px solid #3c3c3c; margin:0 auto; position:relative; top:-1px;}
+.ftCopyRightBox .link { font-size:12px; font-weight:bold; color:#fff; margin-top:24px;  }
+.ftCopyRightBox .link a { color:#fff; margin:0 3px;  }
+.ftCopyRightBox .disc { font-size:12px; color:#555555; margin-top:15px; line-height:22px;}
+.ftCopyRightBox .logos { width:272px; height:21px; position:absolute; top:24px; right:0;  }
+.ftCopyRightBox .logos img { display:inline; }

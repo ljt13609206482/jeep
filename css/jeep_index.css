@@ -1,0 +1,83 @@
+#index_main{width: 1366px;margin: 0 auto;position: relative; }
+/*微信二维码样式*/
+.wechatQr { width:100%; height:100%; position:fixed; left:0; top:0;  z-index:12001; display: none }
+.wechatQr .bg { width:100%; height:100%; position:absolute; background:#000; opacity:0.77; filter:alpha(opacity=77);  }
+.wechatQr .box { width:344px; height:450px; position:absolute; left:50%; top:40%; margin:-225px 0 0 -174px;
+    background:#000; color:#fff; }
+.wechatQr p { text-align: center; font-size:18px; padding-top:68px;  }
+.wechatQr span { color:#fdc33e; }
+.wechatQr .qr { position:absolute; left:62px; top:168px;  }
+.wechatQr .close { position:absolute; top:0; right:0; }
+/*右侧导航样式--rightNav*/
+.rightNav { width:57px; height:334px; z-index:100;position: fixed;margin-left:1306px;top: 20%;
+    font:18px "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He", sans-serif; }
+.rightNav a { width:57px; height:56px; background:url('../img/index/nav/nav08n.png'); float:right;
+    display:block; overflow:hidden; color:#cfcfcf; position:relative;  transition: all 0.3s linear}
+.rightNav a:last-child{ height:55px; }
+.rightNav .icon { margin:7px 0 0 14px; }
+.rightNav span { position:absolute; left:77px; top:15px; white-space:nowrap; }
+/*轮播广告样式*/
+ul,li{ margin: 0; padding: 0; list-style: none; }
+#container{  width: 1366px; height:680px;top: 0;left: 0; overflow: hidden; position: relative; }
+ul.banner_img{  width:15026px;height:680px;position: relative; }
+.banner_img li{ width:1366px;height: 680px; float: left; text-align: center; z-index: 1; }
+#container .indicators li{ width:40px; height:5px; background:#dddddd; margin-right:20px;
+    float: left;  transition:all .2s linear;z-index: 3; }
+#container ul.indicators{ position: absolute; left: 360px; bottom: 30px; }
+#container ul.indicators li:hover,#container ul.indicators li.hover{ cursor:pointer;background-color:#fdc33e; }
+#container a{position: absolute;opacity: 0.5;  }
+#container a img{width: 40px}
+#container a:hover{ opacity: 1;}
+#container a.lt{top:295px; left: 15px; }
+#container a.gt{ top: 295px; right: 80px; }
+/*定义显示和隐藏动画*/
+@-webkit-keyframes show_am 	{
+    0% { opacity:0; }
+    100% { opacity:1; }  }
+@-webkit-keyframes out_am 	{
+    0% { opacity:1; }
+    100% { opacity:0; }  }
+
+.index_kv .kvBt { width:16.88%; top:49.06%; left:17.8%; position:absolute; display:block; }
+.log { width:300px; position:fixed; top:65px; left:0; color: red; z-index:1000; display:none;  }
+/*首页信息中心样式*/
+.index_news { width:1366px; margin:0 auto; background:#fff; position:relative; overflow:hidden; }
+.index_news .bg { width:100%; display:block; }
+.index_news ul { width:100%; height:100%; position:absolute; top:15px;bottom: 15px; left:0;display:flex;justify-content: space-between; }
+.index_news li img { width:100%; }
+.index_news li a div { position:relative; }
+.index_news li a .orange { position:absolute; bottom:0; visibility:hidden; }
+.index_news li a:hover div img { visibility:hidden; }
+.index_news li a:hover .orange{ visibility:visible; }
+.newsArrLeft { width:3.91%; top:22.83%; left:0; position:absolute; display:none; }
+.newsArrRight { width:5.63%; top:22.83%; right:-1%; position:absolute; display:none; }
+.newsArrLeft img ,.newsArrRight img { display:block; width:100%;  }
+.index_news:hover .newsArrLeft { display:block; }
+.index_news:hover .newsArrRight { display:block; }
+/*首页campion*/
+.index_campaign .bg { width:100%; height:100%; background:#000; opacity:0.8; filter:alpha(opacity=80); }
+.index_campaign { width:1366px; margin:0 auto; height:792px; position:relative; overflow:hidden;
+    background:url('../img/index/cam/campaign_bg01.jpg') repeat-x; }
+.index_campaign .camArrBox{display: none;}
+.index_campaignBox { width:1258px; margin:0 auto; }
+.index_campaignBox ul { width:1024px; height: 500px; margin:26px auto 0; }
+.index_campaignBox ul li { width:341px; height:250px; float:left; position:relative; overflow:hidden;  }
+.index_campaignBox ul li a { display:block; position:absolute; left:0; top:0; }
+.index_campaignBox ul li a .bg { display:none; width:100%; height:100%; top:0; position:absolute; background:#000; opacity:0.5; filter:alpha(opacity=50); }
+.index_campaignBox ul li a .bt { display:none; top:100px; left:82px; position:absolute; }
+.index_campaignBox ul li a:hover .bg,.index_campaignBox ul li a:hover .bt { display:block; }
+
+.camBox { width:100%; height:100%; position:absolute; left:0; }
+.index_campaignBox .titleLi { width:682px; height:250px; position:relative; }
+.index_campaignBox .titleLi div { position:absolute; }
+.midImg {display: block; margin:0 auto; }
+.index_campaignBox div:first-child{padding-top: 55px}
+.index_campaignBox div:nth-child(2){padding-top: 20px}
+/*用户导航样式*/
+.index_user { width:1366px; height:83px; padding-top:19px;bottom:0px; background:#fff; margin:0 auto; }
+.index_userBox { width:1025px; margin:0 auto; }
+.index_userBox li { float:left; }
+.index_userBox li img { float:left; }
+/*底部悬浮二维码*/
+.bottom_qr{bottom: 10px; width: 130px;position: fixed;margin-left: 1233px;z-index: 199;}
+.bottom_qr img{display: block;width: 100%;}

@@ -1,0 +1,162 @@
+    <!--顶部登录导航栏-->
+    <div class="sHeight"></div>
+    <div class="sTop ">
+        <div class="sTopBox clear">
+            <ul class="sNav">
+                <li id="headerCart" class="sNavUnable">
+                    <a href="#" id="myCart">
+                        <img src="img/jep_shopping/shopping_index/s_car.png" alt="">我的购物车<em class="shopNum">0</em>
+                    </a>
+                </li>
+                <li class="sNavUnable">
+                    <a id="loginUrl" href="javascript:"><img src="img/jep_shopping/shopping_index/me.png" alt="">
+                                <span id="customerInfo">
+                                    注册/登录
+                                </span>
+                    </a>
+                    <a id="welcome" href="javascript:;">
+                        Welcome | <span id="customName"></span>
+                    </a>
+                    <a id="logout" href="javascript:;">
+                        退出登录
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--弹窗遮罩-->
+    <div class="loginWrap"></div>
+    <!--顶部商城导航栏-->
+    <div class="sHeader clear">
+        <div class="sHeaderBox">
+            <div class="sLogo">
+                <a href="index.html">
+                    <img src="img/jep_shopping/jeep_bot/nav_logo.png" alt="">
+                </a>
+            </div>
+            <ul class="sNav">
+                <li class="sNavTab  shopping_index">
+                    <a href="index.html" data-jump="1">首页</a>
+                </li>
+                <li class="sNavTab shopping_order">
+                    <a href="jeep_campass.html" data-jump="2">车型展示</a>
+                </li>
+                <li class="sNavTab shopping_order">
+                    <a href="jeep_shopping_goodList.html" data-jump="3">我要订车</a>
+                </li>
+                <li class="sNavTab shopping_bot">
+                    <a href="jeep_shopping_bot.html" data-jump="4">Jeep精品附件</a>
+                </li>
+                <li class="sNavTab  shopping_Dealer">
+                    <a href="jeep_club.html" data-jump="5">jeep生活</a>
+                </li>
+            </ul>
+            <div class="sHeaderWx">
+                <div id="location" class="change_city">
+                    <span>
+                        <img src="img/jep_shopping/bot_details/Mapicon.png">
+                    </span>
+                    <span id="city">
+                        成都市
+                    </span>
+                </div>
+                <a href="#" id="wxA"><img src="img/jep_shopping/shopping_index/wx.png" alt=""></a>
+                <div id="ervImg">
+                    <span>即刻扫码关注Jeep商城微信</span>
+                    <span>更多商城活动信息即时送达</span>
+                    <img src="img/jep_shopping/shopping_index/unpayed_erv.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--提示弹窗-->
+    <div id="noticeWin" class="loginBox jeepAlertWin">
+        <h3 class="loginTit">
+            <span>
+                <img src="img/jep_shopping/shopping_index/login_tit.png" alt="">
+            </span>
+        </h3>
+        <div id="noticeMsg" class="noticeMsg">
+            <p></p>
+        </div>
+    </div>
+    <!-- 登陆弹窗 -->
+    <div id="loginWin" class="loginBox jeepAlertWin">
+        <a href="javascript:" class="close" id="login_close"></a>
+        <h3 class="loginTit"><span><img src="img/jep_shopping/shopping_index/login_tit.png" alt=""></span></h3>
+        <ul class="loginInput">
+            <li>
+                <span class="loginLeft">登录名称：</span>
+                <input id="uname" type="text" class="loginTel" maxlength="11" name="uname" placeholder="字母开始，6-11位" required>
+                <span class="input_tip" id="uname_tip">*</span>
+            </li>
+            <li>
+                <p>
+                    <span class="loginLeft">登录密码：</span>
+                    <input id="upwd" type="password" class="loginMsd "  maxlength="16" placeholder="字母，数字 6-16位" required>
+                    <span class="input_tip" id="upwd_tip">*</span>
+                </p>
+            </li>
+        </ul>
+        <div class="yzm">
+            <input type="text" class="yzm_input" name="yzm" id="yzm_input" placeholder="请输入验证码"/>
+            <canvas id="myCanvas" width="90xp" height="40px">您的浏览器不支持canvas，请换个浏览器试试~</canvas>
+            <span class="input_tip" id="yzm_tip">*</span>
+        </div>
+        <div class="toRegister">
+            还没有账号？<a href="#" id="toRegister">5s去注册</a>
+        </div>
+        <div class="layerBot">
+            <span>
+                <a href="javascript:;" class="loginBtn" id="login">提&nbsp;&nbsp;&nbsp;交</a>
+            </span>
+        </div>
+    </div>
+    <!--注册弹窗-->
+    <div id="registerWin" class="loginBox jeepAlertWin">
+        <a href="javascript:" class="close" id="register_close"></a>
+        <h3 class="loginTit"><span><img src="img/jep_shopping/shopping_index/login_tit.png" alt=""></span></h3>
+        <ul class="loginInput">
+            <li>
+                <span class="loginLeft">登录名称：</span>
+                <input id="rname" type="text" class="loginTel" maxlength="11" name="rname" placeholder="字母、数字 6至10位" required>
+                <span id="rname_tip" class="input_tip">*（必填）</span>
+            </li>
+            <li>
+                <p>
+                    <span class="loginLeft">登录密码：</span>
+                    <input id="rpwd" type="password" class="loginMsd " maxlength="18" name="rpwd" placeholder="数字、字母 6至18位" required>
+                    <span class="input_tip" id="rpwd_tip">*（必填）</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="loginLeft">重复密码：</span>
+                    <input id="crpwd" type="password" class="loginMsd " maxlength="16" placeholder="请输入再次输入登录密码" required>
+                    <span class="input_tip" id="crpwd_tip">*（必填）</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="loginLeft">注册邮箱：</span>
+                    <input id="email" type="email" class="loginMsd " maxlength="16" name="email" placeholder="请输入邮箱">
+                    <span class="input_tip"></span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="loginLeft">联系电话：</span>
+                    <input id="phone" type="tel" class="loginMsd " maxlength="16" name="phone" placeholder="请输入联系电话">
+                    <span class="input_tip"></span>
+                </p>
+            </li>
+        </ul>
+        <div class="toLogin">
+            <a href="#" id="toLogin">返回登录页面&gt;&gt;</a>
+        </div>
+        <div class="layerBot">
+            <span>
+                <a href="javascript:;" class="loginBtn" id="register">注&nbsp;&nbsp;&nbsp;册</a>
+            </span>
+        </div>
+    </div>

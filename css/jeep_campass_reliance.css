@@ -1,0 +1,7 @@
+/*广告图片样式*/
+#reliance_main{width: 1366px;margin: 0 auto;background: #FFFFFF;}
+#reliance_main .kv{width: 100%;margin: 0 auto ;}
+#reliance_main .kv img{display:block;width:100%;}
+#reliance_main .block02{text-align: center;overflow: hidden;border-bottom:6px solid #537415; border-top:6px solid #537415;}
+#reliance_main .sy_pic-silde{width:1366px;;margin: 0;height: auto;overflow: hidden;display: flex;}
+#reliance_main .sy_pic-silde li{float: left;position: relative;overflow: hidden;height: auto;width: 100%;  margin: 0 auto;}

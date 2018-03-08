@@ -1,0 +1,36 @@
+/*车型信息样式*/
+#spec_main{width: 1366px;margin: 0 auto;background: #FFFFFF;}
+#spec_main .sptit{height: 91px;width: 100%;position: fixed; top:100px;left: 0; z-index: 2;}
+#spec_main .spMidBox { height:100%; width:1366px; margin:0 auto;background: #fff;border-bottom: 1px solid #dfdfdf;  }
+#spec_main .sptitcon{height: 91px;width: 1026px;margin: 0 auto;position: relative;}
+#spec_main .samradio{width: 13%;height: 69px;background: #eee;position: absolute;top: 10px;left: 0;text-align: center;}
+#spec_main .samradio p{font-size:16px;font-weight:400;margin-top: 25px;}
+#cartit{height: 69px;width:87%;position: absolute;top: 10px;left:13%;}
+#cartit li{width:11.11%;height: 69px;border-right: 1px solid #e0e0e0;float: left;text-align: center;box-sizing:border-box;}/*96*/
+/*侧边导航样式*/
+.sidenav{width: 142px;position: fixed;left:933px;top: 192px; margin-left: -655px;background: #e6e6e6;z-index: 1;}
+.sidenav ul{padding-top: 10px;}
+.sidenav ul li{margin-bottom: 10px;width: 146px;height: 26px;}
+.sidenav ul li.on{background: url(../img/jeep_campass_spec/yewbg.png) no-repeat;}
+.sidenav ul li a{display: block;font-size: 12px;color: #000;line-height: 26px;padding-left: 12px;}
+/*车辆信息表样式*/
+.carInfo { width:1026px; margin:0 auto; background: #fff; padding-top:190px;left: -8px;position: relative; }
+.carInfo .pz{width: 979px;height:40px;cursor: pointer; position: relative;padding-left: 47px;font-size: 16px;color: #000;line-height: 40px;margin-bottom: 2px;}
+.carInfo .pz1{background: url(../img/jeep_campass_spec/tt1.png) no-repeat;}
+.carInfo .pz2{background: url(../img/jeep_campass_spec/tt2.png) no-repeat;}
+.carInfo .pz3{background: url(../img/jeep_campass_spec/tt3.png) no-repeat;}
+.carInfo .pz4{background: url(../img/jeep_campass_spec/tt4.png) no-repeat;}
+.carInfo .pz5{background: url(../img/jeep_campass_spec/tt5.png) no-repeat;}
+.carInfo .pz6{background: url(../img/jeep_campass_spec/tt6.png) no-repeat;}
+.carInfo .pz7{background: url(../img/jeep_campass_spec/tt8.png) no-repeat;}
+.carInfo .pz8{background: url(../img/jeep_campass_spec/tt9.png) no-repeat;}
+.carInfo .pz9{background: url(../img/jeep_campass_spec/tt10.png) no-repeat;}
+.carInfo .pz10{background: url(../img/jeep_campass_spec/tt10.png) no-repeat;}
+.carInfo img{display: block;}
+.carInfo a{width: 20px;height: 20px;position: absolute;top: 10px;right: 16px;}
+.carInfo .spec_img{border:1px solid #eee;}
+.dwnbox{width:1046px;margin: 20px auto 0;overflow: hidden;zoom: 1;}
+.dwnbox .dwn2{width: 106px;height: 18px;display: block;float: right;margin-right: 10px;}
+
+.tips{width:1026px;margin: 20px auto 0;padding-bottom: 100px;padding-left: 20px;}
+.tips p{font-size: 12px;color: #333;line-height: 20px;}

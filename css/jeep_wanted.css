@@ -1,0 +1,36 @@
+/*顶部副导航样式*/
+#wanted_main{width: 1366px;margin: 0 auto;background: #d6d6d6;}
+.taHeader{height: 33px;background-color: #151515;position: relative;}
+.taHeaderBox{width: 960px;margin: 0 auto;}
+.nava {display: block;padding-top: 6px;width: 102px;font-size: 14px;float: left;font-weight: 600;color: #fff}
+/*页面主体样式*/
+.coner {background: url(../img/jeep_wanted/kv.jpg) top center no-repeat; padding: 1px;}
+.conerBox {width: 960px;padding-top: 360px;margin: 0 auto;}
+.conerTit {height: 75px;background: #5b80e0;border-bottom: 1px #a4a7ad solid;padding: 1px;}
+.conerTit img {display:inline-block; width: 242px; margin: 20px auto 0;position: relative;left: 350px;}
+.conAbout {background: #fff;display: none;}
+.conAboutDiv { padding: 40px 0;margin: 0 30px; border-bottom: 1px #bdbdbd solid; position: relative;}
+.conAboutVideo {width: 430px;height: 242px;float: left;margin-right: 30px;position: relative;}
+.conAboutDiv p {line-height: 24px;font-size: 12px;color: #555;}
+.more {cursor: pointer;position: absolute;right: 0;bottom: 70px;clear: both;}
+.conimgright {float: right;margin-left: 30px;}
+.noline {height:255px;border-bottom: none;position: relative;}
+.index_show {position: relative;z-index: 2;width: 430px;height: 242px;background: #fff;margin-right:30px; }
+.conAboutDiv .p3{position: relative;top:-240px;left:460px;width: 440px;height: 203px;}
+/*招聘模块样式*/
+.conjoin{background: #fff;padding: 20px 0 40px 0;}
+.joinLeft {width: 138px;float: left;padding-left: 30px;}
+.joinLeft a {display: block;width: 134px;height: 30px;line-height: 30px;text-align: center;
+    border-radius: 3px;font-size: 16px;font-weight: 600;margin-bottom: 7px;}
+.joinLeft a:link {border: 1px #ccc solid;color: #999;text-decoration: none;}
+.joinLeft .act:link {color: #fff;background: #5b80e0;text-decoration: none;border: 1px #5b80e0 solid;}
+.joinLeft .act:visited {color: #fff;background: #5b80e0;text-decoration: none;border: 1px #5b80e0 solid;}
+.joinRight {padding: 0 30px;width: 703px;float: right;border-left: 1px #ccc solid;}
+.joinRight p {font-size: 12px;padding: 20px 0;color: #555;}
+.joinRight li {height: 60px;border: 1px #ccc solid;margin-top: 8px;background: #ccc;}
+.zhiweiDiv {background: #fff;margin-left: 8px;padding-top: 12px;height: 48px;color: #555;}
+.zhiwei {width: 443px;float: left;padding-left: 14px;}
+.city {line-height: 38px;border-left: 1px #ccc solid;border-right: 1px #ccc solid;width: 100px;
+    text-align: center;float: left;}
+.zhiweiDiv img {margin: 8px 0 0 23px;float: left;}
+.joinRight p{padding: 20px;text-align: center;font-size: 16px;display: block;color:#555;}

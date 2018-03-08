@@ -1,0 +1,7 @@
+#snow_main{width: 1366px;margin: 0 auto;}
+#kv{width: 1366px;}
+.section{position: relative;}
+#kv li{width: 1366px;height:646px;margin: 0 auto;overflow: hidden;}
+#kv .kv1{background: url(../img/jeep_snow/kv1.jpg) top center no-repeat;}
+#kv .part2{background: url(../img/jeep_snow/part2.jpg) top center no-repeat;}
+#snow{width:1366px;height: 600px;position: absolute;left: 0;top: 0;z-index: 3; }

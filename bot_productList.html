@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/jeep_base.css"/>
+    <link rel="stylesheet" href="css/jeep_shopping_header.css"/>
+    <link rel="stylesheet" href="css/jeep_shopping_footer.css"/>
+    <link rel="stylesheet" href="css/bot_productList.css"/>
+    <title>jeep-商城</title>
+</head>
+<body>
+    <div id="botList_main">
+        <!--页头-->
+        <div id="header"></div>
+        <!--页面副导航-->
+        <div class="sHeaderBotNav">
+            <nav id="nav" class="sc">
+                <ul id="main-menu" class="ln">
+                    <li class="sub">
+                        <a href="javascript:;"><i class="fa fa-home"></i> 选择主题查看 <i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">场景主题</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i> 选择车型查看 <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="bot_productList.html?kw=全新Jeep指南者">全新Jeep指南者</a></li>
+                            <li><a href="bot_productList.html?kw=全新Jeep自由光">全新Jeep自由光</a></li>
+                            <li><a href="bot_productList.html?kw=全新Jeep自由侠">全新Jeep自由侠</a></li>
+                            <li><a href="bot_productList.html?">全车系通用</a></li>
+                        </ul>
+                    </li >
+                    <li class="sub">
+                        <a href="javascript:;"><i class="fa fa-home"></i> 选择功能（仅附件） <i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="bot_productList.html?kw=坐垫脚垫">坐垫脚垫</a></li>
+                            <li><a href="bot_productList.html?kw=外饰改装">外饰改装</a></li>
+                            <li><a href="bot_productList.html?kw=车内装饰">车内装饰</a></li>
+                            <li><a href="bot_productList.html?kw=安全监测">安全监测</a></li>
+                            <li><a href="bot_productList.html?kw=收纳运载">收纳运载</a></li>
+                            <li><a href="bot_productList.html?kw=车身防护">车身防护</a></li>
+                            <li><a href="bot_productList.html?kw=维修保养">维修保养</a></li>
+                            <li><a href="bot_productList.html?kw=汽车服务">汽车服务</a></li>
+                            <li><a href="bot_productList.html">查看所有商品</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i> 选择品类（仅精品） <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="bot_productList.html?kw=方向盘">驾驶辅助</a></li>
+                            <li><a href="bot_productList.html?kw=户外运动">运动户外</a></li>
+                            <li><a href="bot_productList.html?kw=生活用品">生活用品</a></li>
+                            <li><a href="bot_productList.html?kw=办公用具">办公用具</a></li>
+                            <li><a href="bot_productList.html?kw=储物收纳">储物收纳</a></li>
+                            <li><a href="bot_productList.html?kw=儿童专区">儿童专区</a></li>
+                            <li><a href="bot_productList.html?kw=jeep周边">Jeep周边</a></li>
+                            <li><a href="">查看所有商品</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <a href="bot_productList.html">
+                            <i class="fa fa-home"></i> 查看所有商品 <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="submenu">
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--产品列表-->
+        <div class="sListBox">
+            <div class="sBanner">
+                <img src="img/jep_shopping/shopping_goodList/a2661b3b-5172-4c53-936b-f6f93260f840.jpg" alt="">
+            </div>
+            <ul class="sList">
+            </ul>
+            <div class="sPage">
+                <!-- 上一页 -->
+                <a href="#" id="pre">&lt; 上一页</a>
+                <!-- 当前页 -->
+                <span id="pageNum"></span>
+                <!-- 下一页 -->
+                <a href="#" id="next">下一页 &gt;</a>
+            </div>
+        </div>
+        <!--页脚-->
+        <div id="footer"></div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jeep_shopping_header.js"></script>
+    <script src="js/bot_productList.js"></script>
+</body>
+</html>

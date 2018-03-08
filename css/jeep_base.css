@@ -1,0 +1,41 @@
+/*定义全局样式*/
+div{
+    margin: 0;
+    padding:0;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    vertical-align: middle;
+}
+img{
+    vertical-align:middle;
+    border:0;
+    display: inline-block;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+body{
+    width:1366px;
+    height:100%;
+    margin: 0 auto;
+    padding:0;
+    color:#555;
+    font-size:12px;
+    font-family:CN Hiragino SansGB,Microsoft Yahei,Heiti,sans-serif EN Helvetica,Arial,sans-serif;
+    background: #dddddd;
+}
+.left{float:left}
+.right{float:right}
+.clear{clear:both}
+.textcenter{ text-align:center}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{clear:both;zoom:1;}
+div.main{  width: 1366px;margin: 0 auto }

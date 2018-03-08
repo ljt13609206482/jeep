@@ -1,0 +1,58 @@
+/*左侧便导航样式*/
+#club_main{width: 1366px;margin: 0 auto;}
+.sidenav {width: 96px;height: 551px;position: fixed;top: 135px;left: 0;background: url(../img/jeep_club/side_bg.png)
+no-repeat;z-index:66;display: none;transform:translate(0,0)}
+.sidenav .snav1 {width: 96px;height: 85px;background: url(../img/jeep_club/snav1.png) no-repeat;
+    margin-bottom: 1px;cursor: pointer;}
+.sidenav .snav2 {width: 96px;height: 84px;background: url(../img/jeep_club/snav2.png) no-repeat;
+    margin-bottom: 1px;cursor: pointer;}
+.sidenav .snav3 {width: 96px;height: 84px;background: url(../img/jeep_club/snav3.png) no-repeat;
+    margin-bottom: 1px;cursor: pointer;}
+.sidenav .snav4 {width: 96px;height: 84px;background: url(../img/jeep_club/snav4.png) no-repeat;
+    margin-bottom: 1px;cursor: pointer;}
+.sidenav .snav1.on {background-image: url(../img/jeep_club/snav1_on.png);}
+.sidenav .snav2.on {background-image: url(../img/jeep_club/snav2_on.png);}
+.sidenav .snav3.on {background-image: url(../img/jeep_club/snav3_on.png);}
+.sidenav .snav4.on {background-image: url(../img/jeep_club/snav4_on.png);}
+/*页面主体样式*/
+.main {width: 100%;max-width: 1920px;min-width: 1280px;background-color: #fff;}
+.part1 {width: 100%;height: 550px;background: url(../img/jeep_club/newAct1.jpg) no-repeat top center;position: relative;margin-top:0; }
+.midbox {width: 1280px;height: 550px;position: absolute; top: 0;left: 50%;margin-left: -640px;}
+.midbox .p1txt {width: 387px;height: 373px;position: absolute;top: 74px;left: 90px;}
+.midbox .black {width: 100%;height: 100%;position: absolute;top: 0px;left: 0;background-color: #000;opacity: 0.8;}
+.midbox .p1txtcon {padding-left: 36px;width: 408px;height: 100%;position: absolute;top: 0;left: 0;}
+.p1txtcon h3 {font-size: 48px;color: #fff;padding-top: 30px;}
+.p1txtcon b {width: 252px;height: 1px;background: #fff;margin-top: 20px;margin-bottom: 12px;display: block;}
+.p1txtcon h4 {font-size: 30px;color: #fff;margin-bottom: 5px;}
+.p1txtcon p {font-size: 18px;color: #e3e3e3;line-height: 34px;}
+.white {width: 100%;height: 5px;background: #fff;}
+/*part2*/
+.part2 {width: 100%;height: 550px;background: url(../img/jeep_club/newAct2.jpg) no-repeat top center;position: relative;}
+.p2tubox {position: absolute;top: 337px;left: 7.67%;width: 645px;height: 122px;}
+.p2tubox ul {overflow: hidden;zoom: 1;}
+.p2tubox ul li {width: 209px;height: 122px;float: left;margin-right: 6px;position: relative;}
+.logo1 {width: 174px;height: 141px;position: absolute;bottom: 10px;right: 0px;}
+/*part3*/
+.part3 {width: 100%;height: 550px;background: url(../img/jeep_club/newAct3.jpg) no-repeat top center;position: relative;}
+.p3tubox {position: absolute;top: 369px;left: 7.67%;width: 645px;height: 122px;}
+.p3tubox ul {overflow: hidden;zoom: 1;}
+.p3tubox ul li {width: 209px;height: 122px;float: left;margin-right: 17px;position: relative;}
+.p3tt {position: absolute;width: 635px;height: 155px;top: 26px;right: 11px;}
+.logo2 {width: 104px;height: 75px;position: absolute;bottom: 10px;right: 20px;}
+/*照片墙样式*/
+.pup{width: 1000px;height: 663px;position:fixed;left:250px;top: 100px;z-index: 4;display:none; }
+.pup .mask{width: 1366px;height: 663px;background: #000000;opacity: 0.7;position:fixed;left:0px;top: 0px;z-index: 2}
+.pup .container{width: 1000px;margin:100px auto;z-index: 6; }
+.pup .container img{width: 280px; padding: 10px; border: 1px solid #ccc; box-shadow:2px 2px 3px rgba(50,50,50,.4); position: absolute; z-index: 3; background: #fff; }
+.container img:nth-child(1){left: 0px;top:0px;transform:rotate(-5deg);}
+.container img:nth-child(2){left: 300px;top: 0px;transform:rotate(4deg);}
+.container img:nth-child(3){left:600px;top:0;transform:rotate(-6deg);}
+.container img:nth-child(4){left:0px;top: 200px;transform:rotate(3deg);}
+.container img:nth-child(5){left: 310px;top: 200px;transform:rotate(-20deg);}
+.container img:nth-child(6){left: 600px;top:200px;transform:rotate(3deg);}
+.container img:hover{transform:rotate(0deg) scale(1.5);transition:all 0.5s ease-in;z-index:6;}
+/*part4样式*/
+.part4 {width: 100%;height: 550px;background: url(../img/jeep_club/newAct4.jpg) no-repeat top center;position: relative;}
+.p4tubox {position: absolute;top: 377px;left: 7.67%;width: 700px;height: 123px;}
+.p4tubox ul {overflow: hidden;zoom: 1;}
+.p4tubox ul li {width: 212px;height: 123px;float: left;margin-right: 17px;position: relative;}

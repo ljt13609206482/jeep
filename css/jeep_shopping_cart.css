@@ -1,0 +1,61 @@
+#cart_main{width: 1366px;margin: 0 auto;color: #000;}
+.sHeaderBot {background: url(../img/jep_shopping/bot_details/n_bg.png) repeat-x;}
+.sHeaderBot .sHeaderNav {width: 1000px;margin: 0 auto;text-align: left;overflow: hidden;
+    font-size: 16px;color: #f6c645;padding-top: 15px;}
+.sHeaderBot .sHeaderNav a {color: #f6c645;padding: 0 5px;}
+/*购物车内容样式*/
+.shopCarBox {width: 990px;margin: 50px auto 0;overflow: hidden;}
+.shopCarBox .shopCarTit {text-align: center;font-size: 21px;padding: 20px 0;font-weight: 400;}
+.shopCarOper {width: 100%;background: #c9c9c9;height: 65px;overflow: hidden;margin-bottom: 20px;}
+.shopCarBox .shopCarTable {width: 100%;border: 1px solid #bfbfbf;overflow: hidden;background: #fff;table-layout: fixed;}
+thead {display: table-header-group;vertical-align: middle;border-color: inherit;}
+tr {display: table-row;vertical-align: inherit;border-color: inherit;}
+.shopCarBox .shopCarTable th {height: 40px;line-height: 40px;text-align: center;background: #c9c9c9;
+    border-right: 2px solid #fff;font-size: 16px;}
+tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+.centertd {vertical-align: middle;text-align: center;}
+.shopCarBox .shopCarTable tr td {border-bottom: 4px solid #ebebeb;vertical-align: top;padding: 12px 0;}
+.shopCarBox .shopCarTable tr td .select {float: left;vertical-align: middle;width: 30px;height: 88px;
+    line-height: 88px;text-align: center;cursor: pointer;background: url(../img/jep_shopping/shopping_cart/select2.png) no-repeat center;}
+.shopCarBox .shopCarTable tr td .select.select_on {background: url(../img/jep_shopping/shopping_cart/select2_on.png) no-repeat center;}
+.shopCarBox .shopCarTable .shopImg {float: left;width: 100px;height: 100px;line-height: 88px;
+    border: 1px solid #e5e5e5;overflow: hidden;text-align: center;}
+.shopCarBox .shopCarTable .shopImg img {width: 100px;height: 100px;display: inline-block;
+    vertical-align: middle;}
+.shopCarBox .shopCarTable .shopCarName {font-size: 16px;padding-top: 10px;padding-left: 10px;font-weight: 400;}
+.shopCarBox .shopCarTable .shopCarEdit {display: inline-block;margin-top: 48px;font-size: 12px;
+    text-decoration: underline; color: #000;margin-left: 10px;}
+.shopCarBox .shopCarTable .shopCarEdit {display: inline-block;margin-top: 48px;font-size: 12px;
+    text-decoration: underline;color: #000;margin-left: 10px;}
+.shopCarBox .shopCarTable .shopCarName {font-size: 16px;padding-top: 10px;padding-left: 10px;
+    font-weight: 400;color: #000;}
+.shopCarBox .shopCarTable .scPrice {text-align: center;color: #ff4500;font-size: 16px;
+    padding-top: 10px;}
+.shopCarBox .shopCarTable .sdNum {width: 133px;padding-top: 3px;margin: 0 auto;
+    margin-top: 2px;display: inline-block;}
+.shopCarBox .shopCarTable .sdNum a {display: inline-block;vertical-align: middle;width: 28px;
+    text-align: center;height: 28px;line-height: 28px;background: #f2f2f2;border: 1px solid #808080;
+    color: #000;margin-left: -5px;}
+.shopCarBox .shopCarTable .sdNum input {display: inline-block;vertical-align: middle;height: 26px;
+    line-height: 26px;border: none;border-top: 1px solid #808080;border-bottom: 1px solid #808080;
+    border-left: 1px solid #808080;font-size: 12px;width: 70px;text-align: center;margin-left: -5px;}
+.shopCarBox .shopCarTable .scPrice {text-align: center;color: #ff4500;font-size: 16px;padding-top: 10px;}
+.shopCarBox .shopCarTable .shopCarDel {float: right;text-align: right;padding-right: 15px;
+    font-size: 12px;color: #000;text-decoration: underline;margin-top: 30px;}
+
+.shopCarOper {width: 100%;background: #c9c9c9;height: 65px;overflow: hidden;margin-bottom: 20px;}
+.shopCarOper .selectAll {float: left;width: 65px;height: 65px;line-height: 65px;text-align: right;font-size: 12px;
+    cursor: pointer;background: url(../img/jep_shopping/shopping_cart/select2.png) no-repeat 15px center;}
+.shopCarOper .selectAll_on {float: left;width: 65px;height: 65px;line-height: 65px;text-align: right;font-size: 12px;
+    cursor: pointer;background: url(../img/jep_shopping/shopping_cart/select2_on.png) no-repeat 15px center;}
+.shopCarOper .shopCarDel {float: left;height: 65px;line-height: 65px;font-size: 12px;color: #000;
+    text-decoration: underline;}
+.shopCarOper .shopCarDel img {vertical-align: middle;margin-top: -2px;margin-right: 5px;}
+.shopCarOper .scOperRight {float: right;}
+.shopCarOper .scOperRight .scOperBtn {float: right;color: #000;width: 178px;height: 65px;
+    line-height: 65px;font-size: 21px;text-align: center;
+    background: url(../img/jep_shopping/shopping_cart/arrow.png) no-repeat 140px center #ffb300;}
+.shopCarOper .scOperRight .scOperTotal {float: right;padding-top: 15px;padding-right: 30px;}
+.shopCarOper .scOperRight .scOperTotal h4 {color: #000;font-size: 21px;font-weight: 400;}
+.shopCarOper .scOperRight .scOperTotal h4 span {color: #ff4500;}
+.shopCarOper .scOperRight .scOperTotal p {font-size: 12px;margin: 5px 20px;}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/jeep_base.css"/>
+    <link rel="stylesheet" href="css/bot_details.css"/>
+    <link rel="stylesheet" href="css/jeep_shopping_header.css"/>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jeep_shopping_header.js"></script>
+    <script src="js/bot_details.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="header"></div>
+        <!--面包屑导航-->
+        <div class="sHeaderBot clear">
+            <div class="sHeaderNav">
+                <a href="jeep_shopping_index.html">首页</a> &gt;
+                <a href="jeep_shopping_bot.html">精品&amp;附件</a>&gt;
+                <a id="productName" href=""></a>
+            </div>
+        </div>
+        <!--商品详情-->
+        <div class="sDetailBox">
+            <div class="sDetailTop">
+                <div id="picBtnTop" class="picBtnTop v-swipe">
+                    <div class="bd">
+                        <ul id="mdPicView">
+                        <!-- 动态记载中图-->
+                        </ul>
+                    </div>
+                    <div class="hd">
+                        <ul class="showProductImageThumbnail">
+                            <!-- 动态加载小图-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="sDetailRight">
+                    <div class="goodsInfo goodsInfoVue">
+                        <h3>【Jeep精品】全新Jeep自由侠1:18车模</h3>
+                        <div class="sDetailPriceBg price">
+                            <div class="clearfix">
+                                <p class="sDetailPrice">官方指导价：
+                                    <span class="spanGoodsPrice">¥498.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="stock row">
+                            <div class="float-l"></div>
+                                <div class="float-r" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="suitcars">
+                            <span>适用车型：</span>
+                            <span id="suitcars">Jeep全车系</span>
+                        </div>
+                        <div id="inOfStock">
+                            <div class="col-md-2">状态：</div>
+                            <div class="state">可订</div>
+                        </div>
+                        <div id="outOfStock">
+                            <div class="col-md-2">状态：</div>
+                            <div class="sRed" >不可订</div>
+                        </div>
+                        <div id="" class="specificationItems">
+                            <div class="sDetailSelect row" >
+                                <div title="颜色">颜色：</div>
+                                <div class="colorItem">
+                                    <a href="javascript:;" name="颜色" val="1" layer="0" class="noHuo">默认</a>
+                                    <a href="javascript:;" name="颜色" val="2" layer="0" class="">灰色</a>
+                                    <a href="javascript:;" name="颜色" val="3" layer="0" class="noHuo">橙色</a>
+                                    <a href="javascript:;" name="颜色" val="4" layer="0" class="">红色</a>
+                                    <a href="javascript:;" name="颜色" val="5" layer="0" class="noHuo">白色</a>
+                                    <a href="javascript:;" name="颜色" val="6" layer="0" class="noHuo">黑色</a>
+                                    <a href="javascript:;" name="颜色" val="7" layer="0" class="noHuo">浅色</a>
+                                    <a href="javascript:;" name="颜色" val="8" layer="0" class="noHuo">深色</a>
+                                    <a href="javascript:;" name="颜色" val="9" layer="0" class="noHuo">香槟色</a>
+                                    <a href="javascript:;" name="颜色" val="10" layer="0" class="noHuo">米白色</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="chooseNumber" class="sdNum">
+                                <div>数量：</div>
+                                <div>
+                                    <a href="javascript:;" val="-1" class="sdMinus">-</a>
+                                    <input type="text" value="1" id="txtNumber" maxlength="3">
+                                    <a href="javascript:;" val="1" class="sdAdd">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sdBtn float-r">
+                            <a id="btnBuy" href="" class="buyBtn btnBuy" data-d="">立即购买</a>
+                            <a id="addCart" href="" class="shopBtn">加入购物车</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="center mg-b-30px">
+                    <div id="slider" class="slider">
+                    </div>
+                </div>
+            </div>
+            <!--商品详情-->
+            <div class="sDetailCon v-introductions">
+                <ul class="tab">
+                    <li val="商品详情" class="active">商品详情</li>
+                    <li val="购买说明" class="">购买说明</li>
+                </ul>
+                <div class="tabCon">
+                </div>
+            </div>
+        </div>
+        <div class="sFooterHeight"></div>
+        <div id="footer"></div>
+    </div>
+
+</body>
+</html>

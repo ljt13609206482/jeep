@@ -1,0 +1,30 @@
+/*ҳ�涥����������ʽ*/
+.ln{ height: 50px;width: 1200px;margin: 0 auto; display: flex;justify-content: space-between;}
+#nav{background:#5c5959;}
+nav li { position: relative; display: inline-block; height: 50px; line-height: 50px;}
+nav a { position: relative;font-size:15px; color: #FFFFFF; display: block; letter-spacing: 1px; transition: all 0.2s ease; }
+nav a i[class*="caret"] { color: #3b536b; margin-left: 0.15em; }
+.sub>a:hover{color:#ffb301; }
+.submenu a:hover {background: #ffb301;}
+nav .submenu { float:left;text-align: center; display: none;position: absolute; opacity: 1; z-index: 9; width: 14em; top: 100%; left: -40px;
+    background-color:#000000; background-color:rgba(0,0,0,0.5);  box-shadow: 0 2px 5px rgba(68, 68, 68, 0.3); transition: all 0.5s ease; }
+nav .submenu.on{ opacity: 1;  transform: rotateX(0deg);  visibility: visible; }
+nav .submenu li {float: none;display: block;position: relative;margin-left: 0;margin-top: 0;}
+
+/*ȫ����Ʒ�б���ʽ*/
+.sListBox {width: 1000px;margin: 0 auto;}
+.sListBox .sBanner {width: 990px;margin: 0 auto;height: 228px;text-align: center;overflow: hidden;margin-bottom: 10px;}
+.sListBox .sList {width: 1000px;margin: 0 auto;overflow: hidden;}
+.sListBox .sList li {float: left;width: 240px;height: 316px;background: #fff;overflow: hidden;margin: 10px 5px 0px 5px;padding-bottom: 12px;}
+.sListBox .sList li .sListImg {width: 240px;height: 190px;text-align: center;line-height: 195px;}
+.sListBox .sList li .jeeplogo {width: 53px;height: 22px;text-align: center;background: url('../img/jep_shopping/jeep_bot/list_jeep.png') scroll no-repeat;
+    margin-left: 170px;margin-top: 10px;}
+.sListBox .sList li .sListImg img {width:240px;vertical-align: middle;height: 150px;}
+.sListBox .slistTitle {margin-top: 15px;margin-left: 15px;margin-right: 13px;border-top: 2px solid #f0f0f0;}
+.sListBox .sList li a h3 {color: #000000;font-size: 14px;padding-top: 10px;}
+.sListBox .sList li .sPrice {color: #9e0000;font-size: 12px;padding-top: 5px;}
+.sListBox .sList li a h3:hover {color: #ffb300;}
+.sPage {width: 1000px;text-align: center;height: 45px;margin-top: 20px;}
+.sPage a {display: inline-block;padding: 5px 10px;background: #fff;color: #000;margin: 0 3px;font-size: 12px;}
+#pageNum a.cur{color: #9e0000;!important;border:1px solid #9e0000;box-sizing: border-box;border-radius: 3px;}
+#pageNum{display: inline-block;}

@@ -1,0 +1,23 @@
+
+/*商城轮播样式*/
+.swiper-container{margin:0 auto;position:relative;z-index:1}
+.swiper-wrapper{width: 1366px;height: 100%;overflow:hidden;}
+.swiper-slide{width: 2732px;height: 100%;}
+.swiper-slide li{width: 1366px;height:100%;float: left;}
+.swiper-pagination li{width: 10px;height: 10px;border-radius:50%;float: left;z-index: 1;background: #FFFFFF;margin-left: 10px;}
+.swiper-pagination li:hover{background:#FFB300; }
+.swiper-pagination{position: absolute;left: 663px;bottom: 20px;}
+/*商城轮播下一楼*/
+#shop_index_floor1 div{text-align:center; margin-top: 40px;}
+#shop_index_floor1 div img{display: inline; border: 1px solid rgb(177, 177, 176);}
+/*整车专区样式*/
+
+/*精品附件*/
+.boutique{width: 100%; min-width: 1250px; height:790px; margin-bottom: 106px;}
+.boutique_smali{width: 1250px; height:790px; margin: 0 auto;position: relative;}
+.boutique_bt{width: 1250px; height:161px; margin: 0 auto;}
+.bout_fu{width: 1250px; height:387px; margin: 0 auto;}
+.boutique_xian{border: 1px solid #B1B1B0;width: 1250px; height:631px;}
+.bout{width:1250px; height:226px; margin: 0 auto;}
+.bout li{float: left; margin-left:6px; margin-top: 10px;}
+.genduo{width: 86px; height: 16px; margin: 0 auto;position: absolute; top:112px; left:48%;z-index: 5;cursor: pointer;}

@@ -1,0 +1,85 @@
+/*顶部Stop样式*/
+body{background: #dddddd;}
+#shopping_main{width: 1366px;background: #000000;}
+.sHeight{width: 100%;height: 93px;}
+.sTop{position: fixed;top: 0;width: 1366px;background: #232323;height: 28px;line-height: 28px;z-index: 11;}
+.sTop .sTopBox{width: 1000px;margin: 0 auto;overflow: hidden;}
+.sTop .sTopBox .sNav{float: right;}
+.sTop .sTopBox .sNav li{float: left;}
+.sTop .sTopBox .sNav li.sNavUnable a{color: #f5ae17;font-size: 12px;padding: 0 5px;margin: 0 10px;}
+#welcome{display: none;}
+.sTop .sTopBox .sNav li a img{vertical-align: middle;margin-right: 3px;margin-top: -3px;}
+.sTop .sTopBox .sNav li .shopNum{display: inline-block;vertical-align: middle;margin-top: -2px;width: 23px;
+    height: 15px;line-height: 17px;color: #000;background: #fff;border-radius: 100%;font-size:
+10px;text-align: center;margin-left:5px;}
+#logout{display: none;}
+.loginWrap{width:1366px;z-index: 999; height:100%;position: fixed;background: #000000;opacity: 0.8;display: none}
+
+#haeader{width: 1366px;margin: 0 auto;position: relative}
+.sHeader{position: fixed;top: 28px;width: 1366px;height: 65px;z-index: 100;
+    background: url("../img/jep_shopping/shopping_index/h_bg.png") repeat-x bottom center;}
+.sHeader .sHeaderBox{width: 1000px;margin: 0 auto;height: 65px;overflow: hidden;}
+.sHeader .sLogo{float: left;}
+.sHeader .sNav{float: left;height: 65px;padding-left: 50px;overflow: hidden;}
+.sHeader .sNav li{float: left;font-size: 16px;height: 65px;}
+.sHeader .sNav li a{display: block;height: 65px;color: #FFFFFF}
+.sHeader .sNav li.sNavTab a{ padding: 0 30px; padding-top: 20px;}
+.sHeader .sHeaderWx{float: right;padding-top: 20px;}
+.change_city {float: left;margin-right: 10px;cursor:pointer;display: none;}
+.change_city>span{display: inline-block;margin-right:5px;}
+.change_city>span>img{width: 14px;}
+.change_city #city{font-size: 16px;color:#FFFFFF;}
+.sHeader .sNav li.on{background:#f5ae17;color: #000000 !important;}
+#ervImg{ background-color: rgba(51,51,51,0.77); width: 204px; height: 240px; margin: 5px 0 0 -85px;
+    position: absolute; line-height: 12px;border: 1px solid #797979;display: none;}
+#ervImg span:first-child{display: inline-block;text-align: center;width: 100%;font-size: 12px;margin-top: 26px;color: #fff;}
+#ervImg span:nth-child(2){display: inline-block;text-align: center;width: 100%;font-size: 12px;margin-top: 5px;color: #fff;}
+#ervImg img{width:120px; height:120px; margin: 26px 0 0 40px;}
+/*登录弹窗样式*/
+#noticeWin{display: none;}
+.noticeMsg{width: 400px;height: 50px;margin: 0 auto;font-size: 16px;
+    color: #F5AE17;text-align: center;}
+
+
+#loginWin{display: none;height:420px;}
+#registerWin{display: none;height: 470px;}
+.loginBox{position:fixed;width: 600px;left: 47%;top: 40%;
+    margin-left: -240px;margin-top: -147px;background: #ebebeb;z-index: 1000;border-radius: 10px;}
+.loginBox .close{display: inline-block;width: 17px;height: 17px;background: url("../img/jep_shopping/shopping_index/close.png")no-repeat;position: relative;left: 595px;top:-15px;}
+.loginBox .loginTit{width: 434px;text-align: center;background: url("../img/jep_shopping/shopping_index/line.jpg") repeat-x center 15px;margin: 25px auto 35px;}
+.loginBox .loginTit span{display: inline-block;background: #ebebeb;width: 184px;height: 54px;}
+.loginBox .loginInput{width:500px;margin-left: 65px;}
+.loginBox .loginInput li{padding-bottom: 10px;font-size: 16px;padding-left: 85px;position: relative;overflow: hidden;}
+.loginBox .loginInput li .loginLeft{position: absolute;left: 0;top: 9px;}
+.loginBox .loginInput li input{float: left;background: #fff;border: 1px solid #c9c9c9;height: 33px;line-height: 33px;text-indent: 10px;}
+.input_tip{display: inline-block;margin-left:5px; width: 165px;height: 37px;vertical-align: middle;line-height: 37px;}
+span.err{color:#ff0000}
+span.ok{background: url("../img/jep_shopping/login/reg_icons .png") no-repeat -80px 15px;}
+.loginBox .loginInput li p{overflow: hidden;}
+
+.loginBox .loginInput li .loginTel,.formBox .formInput li .formTel{width: 240px;}
+.loginBox .loginInput li .loginMsd{width: 242px;}
+.loginBox .loginInput li input.errorInput{border: 1px solid #ff0000;}
+.loginBox .loginInput li .codeBtn{float: left;vertical-align: middle;width: 98px;height: 35px;
+    line-height: 35px;text-align: center;font-size: 12px;color: #000;background: #ffb300;
+    margin-left: 5px;margin-top: -1px;}
+/*验证码输入框样式*/
+.yzm{width: 400px; display: inline-flex;margin:0 auto;position:relative;left: 149px;}
+.yzm_input{width: 200px;height: 37px;padding: 0;margin-right: 10px;}
+
+.toRegister{width: 200px;position: relative;left: 365px;top: 30px;font-size: 16px;}
+.toRegister a{display: inline-block;height: 20px;width: 65px;line-height: 20px;padding: 0 5px;border-radius: 3px;color: #fff;
+    background-color: #f90;}
+.toLogin{width: 200px;position: relative;left: 405px;top:-20px;font-size: 16px;}
+.toLogin a{display: inline-block;height: 20px;width:120px;line-height: 20px;padding: 0 5px;border-radius: 3px;color: #fff;
+    background-color: #f90;}
+
+/*灰色登陆按钮*/
+.loginBox .loginInput li .codeBtn.greyBtn{background: #c9c9c9;color: #898989;}
+.loginBox .loginInput li .codeBtn.unableBtn{background: #c9c9c9;color: #898989;}
+.loginBox .loginBtn{float: left;width: 170px;height: 37px;line-height: 37px;background: url("../img/jep_shopping/shopping_index/arrow.png") no-repeat #ecb400 158px center;text-align: center;color: #000;font-size: 16px;}
+.loginBox .error{color: #ff0000;font-size: 12px;padding-top: 5px;}
+.loginBox .loginSuccess{text-align: center;font-size: 16px;padding-top: 25px;}
+.layerBot{position: absolute;bottom: 20px;left: 50%;margin-left: -217px;height: 37px;width: 434px;
+    background: url("../img/jep_shopping/shopping_index/line.jpg") repeat-x center;text-align: center;}
+.layerBot span{display: inline-block;padding: 0 8px;background: #ebebeb;}

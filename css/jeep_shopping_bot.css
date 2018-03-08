@@ -1,0 +1,88 @@
+/*清除浮动影响*/
+body{background: #dddddd}
+#main{background: #FFFFFF;}
+ul:after, header:after, #main:after { clear: both;  content: ""; display: table;  }
+ul:before, header:before, #main:before { content: "";  display: table;}
+/*页面顶部导航条样式*/
+.ln{ height: 50px;width: 1200px;margin: 0 auto; display: flex;justify-content: space-between;}
+#nav{background:#5c5959;}
+nav li { position: relative; display: inline-block; height: 50px; line-height: 50px;}
+nav a { position: relative;font-size:15px; color: #FFFFFF; display: block; letter-spacing: 1px; transition: all 0.2s ease; }
+nav a i[class*="caret"] { color: #3b536b; margin-left: 0.15em; }
+.sub>a:hover{color:#ffb301; }
+.submenu a:hover {background: #ffb301;}
+nav .submenu { float:left;text-align: center; display: none;position: absolute; opacity: 1; z-index: 9; width: 14em; top: 100%; left: -40px;
+    background-color:#000000; background-color:rgba(0,0,0,0.5);  box-shadow: 0 2px 5px rgba(68, 68, 68, 0.3); transition: all 0.5s ease; }
+nav .submenu.on{ opacity: 1;  transform: rotateX(0deg);  visibility: visible; }
+nav .submenu li {float: none;display: block;position: relative;margin-left: 0;margin-top: 0;}
+
+/*轮播广告样式*/
+.sIndexBanner{width: 100%;margin: 0 auto;}
+.sIndexBanner .picFocus{ margin:0 auto; width:100%;position: relative;overflow: hidden;zoom: 1;}
+.tempWrap{width:1366px;height:100%;overflow: hidden}
+#sceneBanner{width: 8196px;display: flex;position:relative;left: 0;}
+#sceneBanner>li{width: 1366px;height:100%;position: relative;}
+#sceneBanner .mIndexBannerBot{box-sizing:border-box;width:100%;position:absolute;bottom: 0;padding: 0 35px 0 35px;text-align:center;
+    background:#000000;opacity:0.5;color: #e1e2e4;font-size: 19px;line-height: 40px;height: 40px;z-index: 2;}
+.tagDock{vertical-align: middle;position: absolute;top: 0;left: 0;}
+.tagDock .tagInfo{display: none;font-size: 14px;color: #FFFFFF;position:relative;bottom:3px;background:rgba(0,0,0,0.5);border-radius: 4px;}
+.tagDock .circle{display: inline-block;width:22px;height:22px;position:relative;top:3px;
+    background-size: contain;background-position: center center;
+    background-image: url("../img/jep_shopping/jeep_bot/circle.png");}
+.tagDock .add{display: inline-block;width:22px;height:22px;position:relative;top:3px;
+    background-size: contain;background-position: center center;
+    background-image: url("../img/jep_shopping/jeep_bot/add.png");}
+/*标签定位*/
+#sceneBanner li:nth-child(2) .tags div:nth-child(1){top: 349px;left: 249px;}
+#sceneBanner li:nth-child(2) .tags div:nth-child(2){top: 335px;left: 810px;}
+#sceneBanner li:nth-child(2) .tags div:nth-child(3){top: 184px;left: 741px;}
+#sceneBanner li:nth-child(2) .tags div:nth-child(4){top: 177px;left: 302px;}
+#sceneBanner li:nth-child(2) .tags div:nth-child(5){top: 110px;left: 395px;}
+
+#sceneBanner li:nth-child(3) .tags div:nth-child(1){top: 76px;left: 1200px;}
+#sceneBanner li:nth-child(3) .tags div:nth-child(2){top: 276px;left: 398px;}
+#sceneBanner li:nth-child(3) .tags div:nth-child(3){top: 279px;left: 852px;}
+#sceneBanner li:nth-child(3) .tags div:nth-child(4){top: 369px;left: 668px;}
+#sceneBanner li:nth-child(3) .tags div:nth-child(5){top: 443px;left: 877px;}
+#sceneBanner li:nth-child(3) .tags div:nth-child(6){top: 438px;left: 444px;}
+
+#sceneBanner li:nth-child(5) .tags div:nth-child(1){top: 280px;left: 510px;}
+#sceneBanner li:nth-child(5) .tags div:nth-child(2){top: 323px;left: 967px;}
+#sceneBanner li:nth-child(5) .tags div:nth-child(3){top: 320px;left: 625px;}
+#sceneBanner li:nth-child(5) .tags div:nth-child(4){top: 485px;left: 655px;}
+#sceneBanner li:nth-child(5) .tags div:nth-child(5){top: 443px;left: 877px;}
+#sceneBanner li:nth-child(5) .tags div:nth-child(6){top: 438px;left: 444px;}
+/*小图列表样式*/
+.picFocus .hd{width: 1366px;height: 100%;position: relative;}
+#sceneThumbnail{display: flex;justify-content: space-between;}
+#sceneThumbnail li{text-align: center;border: 1px solid #FFFFFF;box-sizing: border-box;overflow: hidden;}
+
+/*商品列表样式*/
+#product_section{width:1366px;margin: 0 auto;text-align: center;}
+#section{width: 990px;height: 100%;margin: 0 auto;}
+.sIndexCon h3{width:990px;margin:0 auto 10px;font-size: 21px;text-align: center;padding:25px 0;border-bottom: 1px solid #dbdbdb;font-weight: 400;
+    color: #000000;}
+#section ul{border-bottom: 1px solid #dbdbdb;margin-bottom: 15px;overflow: hidden;}
+#section ul li{width: 240px;height: 270px;margin-right: 6px;display: inline-block;margin-top:0; float: left;}
+#section .sIndexConImg{width: 238px;height: 159px;line-height: 148px;text-align: center;
+    border:1px solid #dbdbdb;}
+/*商品列表文字样式*/
+.sIndexCon .sIndexConTxt{padding:10px 0 0 40px;margin-bottom: 12px;position: relative;overflow: hidden;}
+.sIndexCon .sIndexConTxt:hover{background: #f6c543}
+.sIndexCon .sIndexConTxt span{position: absolute;width: 17px;height: 17px;top: 50%;margin-top: -8px;
+    left:10px;background: url("../img/jep_shopping/jeep_bot/select.png") no-repeat;}
+.sIndexCon .sIndexConTxt span.selected{position: absolute;width: 17px;height: 17px;top: 50%;margin-top: -8px;
+    left:10px;background: url("../img/jep_shopping/jeep_bot/select2_on.png") no-repeat;}
+.sIndexCon .sIndexConTxt h4{color: #000000;font-size: 16px;padding-bottom: 5px;font-weight: 400;}
+.sIndexCon .sIndexConTxt .red{font-size: 14px;color:#9e0000;}
+#section .hide{display: none;}
+#section .show{display: block}
+/*全选，加入购物车样式*/
+.sIndexConBot{text-align: right;margin-bottom: 30px;overflow: hidden;}
+.sIndexConBot .sIndexSelect{display: inline-block;height: 20px;line-height: 20px;padding-left: 20px;margin-right: 40px;
+    background:url("../img/jep_shopping/jeep_bot/select.png")no-repeat left center;cursor: pointer;}
+.sIndexConBot .sIndexSelect.selected{display: inline-block;height: 20px;line-height: 20px;padding-left: 20px;margin-right: 40px;
+    background:url("../img/jep_shopping/jeep_bot/select2_on.png")no-repeat left center;cursor: pointer;}
+.sIndexConBot .shopCarBtn{display: inline-block;width: 122px;height: 46px;line-height: 46px;font-size: 12px;
+    color: #000000;padding-right: 20px;background:url("../img/jep_shopping/jeep_bot/s_car_btn.png") no-repeat center;}
+
