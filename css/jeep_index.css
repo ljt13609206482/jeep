@@ -9,9 +9,9 @@
 .wechatQr .qr { position:absolute; left:62px; top:168px;  }
 .wechatQr .close { position:absolute; top:0; right:0; }
 /*右侧导航样式--rightNav*/
-.rightNav { width:57px; height:334px; z-index:100;position: fixed;margin-left:1306px;top: 20%;
+.rightNav { width:70px; height:334px; z-index:100;position: fixed;margin-left:1306px;top: 20%;
     font:18px "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He", sans-serif; }
-.rightNav a { width:57px; height:56px; background:url('../img/index/nav/nav08n.png'); float:right;
+.rightNav a { width:70px; height:56px; background:url('../img/index/nav/nav08n.png'); float:right;
     display:block; overflow:hidden; color:#cfcfcf; position:relative;  transition: all 0.3s linear}
 .rightNav a:last-child{ height:55px; }
 .rightNav .icon { margin:7px 0 0 14px; }

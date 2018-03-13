@@ -99,9 +99,10 @@ $(function() {
         var num=params.split("jump=")[1];
         //console.log(num);
         //设置当前导航为值为激活状态
-        if(num){
-            $(".sNav li:nth-child(" + num + ")").addClass("on").siblings().removeClass("on");
+        if(!num){
+            num=1;
         }
+        $(".sNav li:nth-child(" + num + ")").addClass("on").siblings().removeClass("on");
 
 
         //验证码

@@ -2,24 +2,34 @@
  * Created by web-01 on 2017/12/27.
  */
 $(function(){
-    //右侧当行列表
+    //右侧导航列表
     var $rightNav=$("#rightNav");
-    $rightNav.mouseover(function(e){
-        var $tar=$(e.target);
-        if($tar.is(":not(a)")){
-            $tar.parent().css("width","219px");
+    $rightNav.on("mousemove","a",function(e){
+        $tar=$(e.target);
+        console.log($tar);
+        if($tar.is("a")){
+            $tar.css({
+                width:190
+            })
         }else{
-            $tar.css("width","219px")
+            $tar.parent().css({
+                width:190
+            })
         }
     });
-    $rightNav.mouseout(function(e){
-        var $tar=$(e.target);
-        if($tar.is(":not(a)")){
-            $tar.parent().css("width","57px");
+    $rightNav.on("mouseout","a",function(e){
+        $tar=$(e.target);
+        if($tar.is("a")){
+            $tar.css({
+                width:70
+            })
         }else{
-            $tar.css("width","57px")
+            $tar.parent().css({
+                width:70
+            })
         }
     });
+
     //图片轮播
     var $ul=$(".banner_img");
     var $ids=$(".indicators");
