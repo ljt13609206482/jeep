@@ -28,12 +28,15 @@ $(function(){
     const WAIT=3000,DURA=500,LIWIDTH=1366;
     //创建变量来保存步数,和定时器
     var moved= 0;
+    var timer=null;
     //创建移动函数move
     //dir变量取值（1，-1）；根据dir值得正负来决定图片移动方向，默认为1
     //正值图片左移
     //负值图片右移
     function move(dir=1){
-        moved+=dir;
+        if(moved<=length){
+            moved+=dir;
+        }
         $ul.animate({
             left:-LIWIDTH*moved
         },DURA,function(){
@@ -46,18 +49,19 @@ $(function(){
             $ids.children(":eq("+moved+")").addClass("hover").siblings().removeClass("hover");
         });
     };
-    var timer=setInterval(move,WAIT);
+    if(timer!=null){
+        timer=setInterval(move,WAIT);
+    }
     //当鼠标进入图片时，停止定时器
     //当鼠标移出时，重新开始定时器
-    $("#container").hover(
-        function(){
-            clearInterval(timer);
-            timer=null;
-        },
-        function(){
-            timer=setInterval(move,WAIT);
-        }
-    );
+    $("#container").mouseover(function(){
+        clearInterval(timer);
+        timer=null;
+    }).mouseout(function(){
+        timer=setInterval(move,WAIT)
+    });
+
+
     //为左右连个按钮绑定单击事件
     $("[data-move=right]").click(function(e){
         e.preventDefault();

@@ -35,7 +35,7 @@ $(function() {
 
         //页头事件绑定
         //1.登录框，注册框单击事件
-        $(".sNav").on("click", "#customerInfo", function () {
+        $(".sNav").on("click", "li #loginUrl", function () {
             $("#loginWin").toggle("explode");
             $(".loginWrap").show();
         });
@@ -83,12 +83,13 @@ $(function() {
             })
         });
         //导航条单击事件
-        $("ul.sNav").on("click","li a",function(e){
+        $("ul.sNav").on("click","li.sNavTab a",function(e){
             e.preventDefault();
            var $tar=$(e.target);
             //console.log($tar.data("jump"));
             url=$tar.attr("href");
-            //跳转时，降低至参数传递到新页面
+            //跳转时，降地址参数传递到新页面
+            console.log(url);
             location.href=url+"?jump="+$tar.data("jump");
         });
 
@@ -96,7 +97,7 @@ $(function() {
         //获取当前页面的地址,及通过页面地址传递的参数
         var params= window.location.search;
         var num=params.split("jump=")[1];
-        console.log(num);
+        //console.log(num);
         //设置当前导航为值为激活状态
         if(num){
             $(".sNav li:nth-child(" + num + ")").addClass("on").siblings().removeClass("on");

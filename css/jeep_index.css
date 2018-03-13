@@ -28,7 +28,7 @@ ul.banner_img{  width:15026px;height:680px;position: relative; }
 #container a{position: absolute;opacity: 0.5;  }
 #container a img{width: 40px}
 #container a:hover{ opacity: 1;}
-#container a.lt{top:295px; left: 15px; }
+#container a.lt{top:295px; left: 30px; }
 #container a.gt{ top: 295px; right: 80px; }
 /*定义显示和隐藏动画*/
 @-webkit-keyframes show_am 	{
