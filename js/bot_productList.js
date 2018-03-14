@@ -83,7 +83,7 @@ $(function(){
         loadProduct(newPage,12,"");
     });
     //副导航查询点击事件
-    $(".submenu").on("click","li a",function(e){
+    $(".submenu").on("click","li a:not(.toShoppingBot)",function(e){
         e.preventDefault();
         var kw=$(this).attr("href").split("=")[1];
         loadProduct(1,12,kw);
